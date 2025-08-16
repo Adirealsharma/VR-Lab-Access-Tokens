@@ -1,0 +1,15 @@
+[package]
+name = "VR-Lab-Access-Tokens"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0xd00b17d10e4c131c05a4a1d33041385bbf2dda2b2b7017df232c9a55a975bb9f'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
